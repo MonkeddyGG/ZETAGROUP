@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeta Group | Arquitectura y Construcción</title>
+    <!-- Fuentes Corporativas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navegación -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>ZETA <span>GROUP</span></h1>
+            </div>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#metodologia">Proceso</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section con Efecto Parallax -->
+    <section id="inicio" class="hero parallax-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container animate-on-scroll">
+            <h2>Arquitectura que trasciende</h2>
+            <p>Diseño | Arquitectura | Construcción</p>
+            <div class="hero-buttons">
+                <a href="#portafolio" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text animate-on-scroll">
+                <h3 class="section-subtitle">Nuestra Esencia</h3>
+                <h2 class="section-title-left">Materializamos el espacio de tus sueños</h2>
+                <p>Ubicados en Venezuela y liderados por nuestro CEO Arturo Zambrano, Zeta Group se posiciona como tu
+                    aliado estratégico en el desarrollo de proyectos arquitectónicos. Fusionamos estética, funcionalidad
+                    y precisión técnica.</p>
+                <p>Desde la conceptualización hasta la entrega final, cuidamos cada detalle en iluminación, carpintería
+                    y acabados residenciales para crear espacios verdaderamente vanguardistas.</p>
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop"
+                    alt="Bocetos arquitectonicos" class="about-sub-image">
+            </div>
+            <div class="about-image animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+                    alt="Edificio corporativo moderno">
+                <div class="experience-badge">
+                    <span class="number" data-target="10">0</span>
+                    <span class="text">Años de<br>Experiencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Estadísticas -->
+    <section class="stats section-padding parallax-bg">
+        <div class="stats-overlay"></div>
+        <div class="container stats-grid animate-on-scroll">
+            <div class="stat-item">
+                <h3 class="counter" data-target="480">0</h3>
+                <p>Proyectos Entregados</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="3900">0</h3>
+                <p>Clientes Satisfechos</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="24">0</h3>
+                <p>Especialistas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services section-padding bg-light">
+        <div class="container">
+            <h3 class="section-subtitle text-center">Especialidades</h3>
+            <h2 class="section-title">Soluciones Integrales</h2>
+            <div class="services-grid animate-on-scroll">
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-home"></i></div>
+                    <h4>Residenciales</h4>
+                    <p>Diseño y construcción de espacios habitacionales adaptados al estilo de vida contemporáneo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-tools"></i></div>
+                    <h4>Remodelación</h4>
+                    <p>Transformación y optimización de espacios existentes, maximizando su potencial y valor.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-hammer"></i></div>
+                    <h4>Carpintería</h4>
+                    <p>Mobiliario a medida y acabados en madera que aportan calidez y exclusividad al diseño interior.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Iluminación</h4>
+                    <p>Estudios lumínicos para interiores y exteriores que resaltan la arquitectura y generan
+                        atmósferas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología -->
+    <section id="metodologia" class="process section-padding">
+        <div class="container">
+            <h3 class="section-subtitle text-center">Cómo Trabajamos</h3>
+            <h2 class="section-title">Nuestra Metodología</h2>
+            <div class="process-grid animate-on-scroll">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h4>Conceptualización</h4>
+                    <p>Análisis del espacio, requerimientos del cliente y primeros bocetos arquitectónicos.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h4>Planificación</h4>
+                    <p>Desarrollo de planos técnicos, renders 3D y presupuesto detallado del proyecto.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h4>Ejecución</h4>
+                    <p>Construcción, supervisión de obra, carpintería e instalación de iluminación.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h4>Entrega</h4>
+                    <p>Revisión final de detalles y entrega del espacio listo para ser habitado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio / Proyectos -->
+    <section id="portafolio" class="portfolio section-padding bg-light">
+        <div class="container">
+            <h3 class="section-subtitle text-center">Nuestras Obras</h3>
+            <h2 class="section-title">Portafolio Destacado</h2>
+            <div class="portfolio-grid animate-on-scroll">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
+                        alt="Fachada Residencial">
+                    <div class="portfolio-overlay">
+                        <span>Residencial Minimalista</span>
+                        <p>Diseño y Construcción</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
+                        alt="Interiorismo Moderno">
+                    <div class="portfolio-overlay">
+                        <span>Interiorismo</span>
+                        <p>Carpintería e Iluminación</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop"
+                        alt="Remodelación Cocina">
+                    <div class="portfolio-overlay">
+                        <span>Espacios Abiertos</span>
+                        <p>Remodelación Integral</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1541888087405-188730ce9e4b?q=80&w=2070&auto=format&fit=crop"
+                        alt="Detalle Concreto">
+                    <div class="portfolio-overlay">
+                        <span>Estructuras</span>
+                        <p>Arquitectura Brutalista</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1524813686514-a57563d77965?q=80&w=2070&auto=format&fit=crop"
+                        alt="Iluminación Exterior">
+                    <div class="portfolio-overlay">
+                        <span>Paisajismo</span>
+                        <p>Diseño Lumínico Exterior</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
+                        alt="Oficinas Corporativas">
+                    <div class="portfolio-overlay">
+                        <span>Corporativo</span>
+                        <p>Remodelación Comercial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials section-padding parallax-bg">
+        <div class="stats-overlay"></div>
+        <div class="container animate-on-scroll">
+            <h2 class="section-title text-white">Lo que dicen nuestros clientes</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Zeta Group entendió perfectamente nuestra visión. La precisión en la carpintería y la
+                        iluminación transformó nuestra casa por completo."</p>
+                    <h4>Familia Rodríguez</h4>
+                    <span>Proyecto Residencial</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Redes -->
+    <section id="contacto" class="contact section-padding bg-dark">
+        <div class="container contact-grid animate-on-scroll">
+            <div class="contact-info">
+                <h2>Comienza tu proyecto</h2>
+                <p>Contáctanos para agendar una consultoría y evaluar el espacio de tus sueños.</p>
+
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Ubicación</h4>
+                        <p>Venezuela</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>proyectos@zetagroupve.com</p>
+                    </div>
+                </div>
+
+                <div class="social-links-contact">
+                    <a href="https://instagram.com/zetagroupve" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre Completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Tipo de Proyecto</option>
+                            <option value="residencial">Residencial</option>
+                            <option value="remodelacion">Remodelación</option>
+                            <option value="carpinteria">Carpintería</option>
+                            <option value="iluminacion">Iluminación</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Cuéntanos sobre tu espacio ideal..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-bottom">
+            <div class="footer-logo">
+                <h2>ZETA <span>GROUP</span></h2>
+            </div>
+            <p>&copy; 2026 Zeta Group. Diseño | Arquitectura | Construcción. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
